@@ -159,6 +159,7 @@ const styles = StyleSheet.create({
   headImg: {
     width: 150,
     height: 150,
+    borderRadius:50
   },
   body: {
     backgroundColor: "#23329B",
@@ -181,9 +182,11 @@ const styles = StyleSheet.create({
   buttonStyle: {
     maxWidth: "80%",
     minWidth: "80%",
+    borderRadius:30
   },
   containerStyle: {
     margin: "auto",
     marginVertical: 7,
+    borderRadius:30
   },
 });
